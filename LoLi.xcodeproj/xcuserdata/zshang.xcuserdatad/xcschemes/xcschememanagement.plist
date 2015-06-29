@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>LibLoLi.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+		<key>LoLi-Swift.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>LoLi.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>LoLiSwift.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>9B6E55C61B40444C00FBDD77</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>9B6E55D11B4044E400FBDD77</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>9BD276BF1B4036F900F7EB56</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>9BD276CA1B4036F900F7EB56</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>9BD276DB1B4037C100F7EB56</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
