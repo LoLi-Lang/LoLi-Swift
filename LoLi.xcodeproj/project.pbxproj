@@ -6,25 +6,100 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		9BB548511B40486B00A5D748 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB548501B40486B00A5D748 /* main.swift */; };
+		9BB548521B4049A100A5D748 /* base.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B26D5D71B3E776100752626 /* base.swift */; };
+		9BB548531B4049A300A5D748 /* typeclass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B26D5D61B3E74E800752626 /* typeclass.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9B6E55D01B4044E400FBDD77 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		9B3F0FD41B3DA08600B94DE6 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		9B26D5D61B3E74E800752626 /* typeclass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = typeclass.swift; sourceTree = "<group>"; };
+		9B26D5D71B3E776100752626 /* base.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = base.swift; sourceTree = "<group>"; };
+		9B6E55D21B4044E400FBDD77 /* LoLiSwift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LoLiSwift; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BB548501B40486B00A5D748 /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9B6E55CF1B4044E400FBDD77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		9B3F0FCD1B3DA06C00B94DE6 = {
 			isa = PBXGroup;
 			children = (
-				9B3F0FD41B3DA08600B94DE6 /* main.swift */,
+				9BB548501B40486B00A5D748 /* main.swift */,
+				9B26D5D71B3E776100752626 /* base.swift */,
+				9B26D5D61B3E74E800752626 /* typeclass.swift */,
+				9B6E55D31B4044E400FBDD77 /* LoLiSwift */,
+				9BD276C11B4036F900F7EB56 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
+		9B6E55D31B4044E400FBDD77 /* LoLiSwift */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = LoLiSwift;
+			sourceTree = "<group>";
+		};
+		9BD276C11B4036F900F7EB56 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9B6E55D21B4044E400FBDD77 /* LoLiSwift */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9B6E55D11B4044E400FBDD77 /* LoLiSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B6E55D61B4044E400FBDD77 /* Build configuration list for PBXNativeTarget "LoLiSwift" */;
+			buildPhases = (
+				9B6E55CE1B4044E400FBDD77 /* Sources */,
+				9B6E55CF1B4044E400FBDD77 /* Frameworks */,
+				9B6E55D01B4044E400FBDD77 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LoLiSwift;
+			productName = LoLiSwift;
+			productReference = 9B6E55D21B4044E400FBDD77 /* LoLiSwift */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		9B3F0FCE1B3DA06C00B94DE6 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0630;
+				TargetAttributes = {
+					9B6E55D11B4044E400FBDD77 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+				};
 			};
 			buildConfigurationList = 9B3F0FD11B3DA06C00B94DE6 /* Build configuration list for PBXProject "LoLi" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -34,12 +109,27 @@
 				en,
 			);
 			mainGroup = 9B3F0FCD1B3DA06C00B94DE6;
+			productRefGroup = 9BD276C11B4036F900F7EB56 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				9B6E55D11B4044E400FBDD77 /* LoLiSwift */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9B6E55CE1B4044E400FBDD77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BB548531B4049A300A5D748 /* typeclass.swift in Sources */,
+				9BB548521B4049A100A5D748 /* base.swift in Sources */,
+				9BB548511B40486B00A5D748 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
 		9B3F0FD21B3DA06C00B94DE6 /* Debug */ = {
@@ -54,6 +144,88 @@
 			};
 			name = Release;
 		};
+		9B6E55D71B4044E400FBDD77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9B6E55D81B4044E400FBDD77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -62,6 +234,15 @@
 			buildConfigurations = (
 				9B3F0FD21B3DA06C00B94DE6 /* Debug */,
 				9B3F0FD31B3DA06C00B94DE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B6E55D61B4044E400FBDD77 /* Build configuration list for PBXNativeTarget "LoLiSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B6E55D71B4044E400FBDD77 /* Debug */,
+				9B6E55D81B4044E400FBDD77 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
