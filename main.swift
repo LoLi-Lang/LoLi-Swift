@@ -17,3 +17,5 @@ println(loliCons(head: loliRat(numerator: 1, denominator: 2), tail: L_NIL).toStr
 println(loliCons(head: loliKey(name: "LoLi"), tail: loliSym(name: "Symbol")).toString())
 
 println(loliBool(value: false).toString())
+
+println(isDerived(L_OBJ, L_OBJ))

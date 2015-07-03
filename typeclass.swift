@@ -37,6 +37,9 @@ public class loliType{
 
 
 func isDerived(type: loliType, from: loliType) -> Bool{
+    if(type === from){
+        return true
+    }
     if(type.getParent() === from){
         return true
     }
