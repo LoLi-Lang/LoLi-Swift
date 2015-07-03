@@ -29,6 +29,21 @@ public class loliType{
         return name
     }
     
+    func getParent() -> loliType?{
+        return self.parent
+    }
+    
+}
+
+
+func isDerived(type: loliType, from: loliType) -> Bool{
+    if(type.getParent() === from){
+        return true
+    }
+    if(type.getParent() == nil){
+        return false
+    }
+    return isDerived(type.getParent()!, from)
 }
 
 public let L_OBJ = loliType(name: "Object", id: "OBJ")

@@ -8,8 +8,6 @@
 
 import Foundation
 
-let L_NIL = loliSym(name: "NIL")
-let L_T = loliSym(name: "T")
 let testCons = loliCons(head: L_T, tail: L_NIL)
 let testCons2 = loliCons(head: L_T, tail:testCons)
 println(testCons2.toString())

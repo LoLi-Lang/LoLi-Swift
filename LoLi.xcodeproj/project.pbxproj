@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9B5FCDCA1B462F8100960E32 /* symbolList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B5FCDC91B462F8100960E32 /* symbolList.swift */; };
 		9BB548511B40486B00A5D748 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB548501B40486B00A5D748 /* main.swift */; };
 		9BB548521B4049A100A5D748 /* base.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B26D5D71B3E776100752626 /* base.swift */; };
 		9BB548531B4049A300A5D748 /* typeclass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B26D5D61B3E74E800752626 /* typeclass.swift */; };
@@ -27,6 +28,7 @@
 /* Begin PBXFileReference section */
 		9B26D5D61B3E74E800752626 /* typeclass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = typeclass.swift; sourceTree = "<group>"; };
 		9B26D5D71B3E776100752626 /* base.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = base.swift; sourceTree = "<group>"; };
+		9B5FCDC91B462F8100960E32 /* symbolList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = symbolList.swift; sourceTree = "<group>"; };
 		9B6E55D21B4044E400FBDD77 /* LoLiSwift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LoLiSwift; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BB548501B40486B00A5D748 /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -45,6 +47,7 @@
 		9B3F0FCD1B3DA06C00B94DE6 = {
 			isa = PBXGroup;
 			children = (
+				9B5FCDC91B462F8100960E32 /* symbolList.swift */,
 				9BB548501B40486B00A5D748 /* main.swift */,
 				9B26D5D71B3E776100752626 /* base.swift */,
 				9B26D5D61B3E74E800752626 /* typeclass.swift */,
@@ -124,6 +127,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9BB548531B4049A300A5D748 /* typeclass.swift in Sources */,
+				9B5FCDCA1B462F8100960E32 /* symbolList.swift in Sources */,
 				9BB548521B4049A100A5D748 /* base.swift in Sources */,
 				9BB548511B40486B00A5D748 /* main.swift in Sources */,
 			);
